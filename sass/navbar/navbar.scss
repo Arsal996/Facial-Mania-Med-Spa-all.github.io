@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Neuton:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+$light-pink: #EED3CD;
+$normal: #DEA370;
+$secondary: #EED3CD;
+$tertary: #2E2E2E;
+$primary: #D48274;
+$light-clr: #F8ECE1;
+$white-clr: #FFFFFF;
+
+
+header {
+
+    .top-bar {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 10rem;
+        height: 20px;
+        // margin-top: -.4rem;
+
+        .phone-num {
+            display: flex;
+
+            img {
+                height: 17px;
+                width: 17px;
+            }
+
+            p {
+                color: $primary;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 18px;
+                margin-left: .4rem;
+
+                span {
+                    color: $tertary;
+                }
+            }
+        }
+
+        .franchise-link {
+            display: flex;
+
+            img {
+                width: 14px;
+                height: 16px;
+            }
+
+            a {
+                color: $tertary;
+                text-transform: uppercase;
+                text-decoration: none;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                margin-top: -.3rem;
+                margin-left: .3rem;
+                display: block;
+                text-decoration-line: underline;
+                transition: all .4s ease-in-out;
+
+                &:hover {
+                    color: $primary;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    nav {
+        padding: 0rem 10rem 1rem 10rem;
+
+        .main-navbar {
+           
+            // margin: 0;
+
+            .logo-section {
+
+                .mbl-logo {
+                    display: none;
+                }
+            }
+
+            .menu-list {
+                display: flex;
+                align-items: center;
+                // justify-content: center;
+
+                ul {
+                    display: flex;
+                    padding-left: 5rem;
+
+                    li {
+                        list-style: none;
+                        padding: 0 1.5rem;
+
+                        a {
+                            font-family: 'Montserrat';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 109.01%;
+                            /* or 17px */
+                            text-transform: uppercase;
+                            text-decoration: none;
+                            color: $tertary;
+                            transition: all .4s ease-in-out;
+
+                            &:hover {
+                                color: $primary;
+                            }
+                        }
+                    }
+                }
+
+                button {
+                    background-color: $primary;
+                    padding: .5rem 1rem;
+                    margin-left: 3rem;
+                    margin-top: -.4rem;
+
+                    a {
+                        text-decoration: none;
+                        color: $white-clr;
+                        text-transform: uppercase;
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+
+        .menu-bar{
+            position: absolute;
+            right: 30px;
+            cursor: pointer;
+            top: 85px;
+            display: none;
+
+            i{
+                font-size: 2rem;
+                color: $primary;
+
+                &:hover{
+                     background-color: $primary;
+                     color: $tertary;
+                     padding: .3rem .5rem;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+// media query css 
+
+@media only screen and (max-width: 1680px){
+    header nav .main-navbar .menu-list ul {
+        display: flex;
+        padding-left: 5rem;
+    }
+    header nav {
+        padding: 0rem 10rem 1rem 10rem;
+    }
+}
+
+@media only screen and (max-width: 1600px){
+    header .top-bar{
+        padding: 1rem 8rem;
+    }
+    header nav .main-navbar .menu-list ul {
+        display: flex;
+        padding-left: 4rem;
+    }
+    header nav {
+        padding: 0rem 8rem 1rem 8rem;
+    }
+}
+@media only screen and (max-width: 1450px){
+    header .top-bar{
+        padding: 1rem 4rem;
+    }
+    header nav {
+        padding: 0rem 4rem 1rem 4rem;
+    }
+}
+@media only screen and (max-width: 1400px){
+ 
+    header nav .main-navbar .menu-list ul {
+        display: flex;
+        padding-left: 5rem;
+    }
+    header nav {
+        padding: 0rem 3rem 1rem 3rem;
+    }
+    header nav .main-navbar .menu-list ul li {
+        list-style: none;
+        padding: 0 1rem;
+    }
+    header .top-bar {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 3.4rem;
+    }
+} 
+@media only screen and (max-width: 1200px) {
+
+    header .top-bar {
+        padding: 1rem 1.5rem;
+    } 
+    header nav {
+        padding: 0rem .5rem 1rem .5rem;
+    }
+    header nav .main-navbar .menu-list ul{
+        padding-left: 1rem;
+    }
+    header nav .main-navbar .menu-list button {
+        margin-left: 1rem;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    header nav .main-navbar .menu-list {
+        position: absolute;
+        flex-direction: column;
+        background-color: $white-clr;
+        margin-top: -30rem;
+        left: 0;
+        padding: 2rem;
+        transition: all .4s ease-in-out;
+        z-index: 99999;
+    }
+    header nav .main-navbar .show-menu{
+        margin-top: 7.5rem;
+    }
+    header nav .main-navbar .menu-list ul{
+        flex-direction: column;
+    }
+    header nav .main-navbar .menu-list ul li {
+
+        padding: .8rem 1rem;
+    }
+    header nav .menu-bar{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 865px) {}
+
+@media only screen and (max-width: 770px) {
+    header .navbar {
+        padding: 1rem 1rem;
+        margin-top: -0.9rem;
+    }
+
+    header nav .main-navbar .logo-section .pc-logo {
+        display: none;
+    }
+
+    header nav .main-navbar .logo-section .mbl-logo {
+        display: block;
+        text-align: center;
+    }
+    header nav .main-navbar .logo-section .mbl-logo  img{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+
+    header .top-bar {
+        padding: .6rem .5rem;
+    }
+
+    header .navbar {
+        padding: .5rem 0;
+        margin-top: -0.9rem;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    header .top-bar .franchise-link a {
+        font-size: 12px;
+        margin-top: 0;
+    }
+
+    header .top-bar .phone-num p {
+        font-size: 12px;
+        // line-height: 28px;
+    }
+
+    header .top-bar .phone-num img {
+        height: 15px;
+        width: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 415px) {}

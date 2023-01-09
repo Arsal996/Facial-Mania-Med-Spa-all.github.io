@@ -1,0 +1,1078 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Neuton:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+.first-section {
+  background-color: #EED3CD;
+  overflow: hidden;
+}
+.first-section .main-section {
+  padding: 3rem 10rem 0rem 10rem;
+  align-items: center;
+}
+.first-section .main-section .content-section h1 {
+  font-family: "Neuton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 81.2px;
+  color: #2E2E2E;
+}
+.first-section .main-section .content-section p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #2E2E2E;
+}
+.first-section .main-section .content-section .learn-btn {
+  margin-top: 2rem;
+}
+.first-section .main-section .content-section .learn-btn a {
+  padding: 0.5rem 4rem;
+  background-color: #FFFFFF;
+  text-decoration: none;
+  color: #2E2E2E;
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.first-section .main-section .content-section .mini-navbar ul {
+  display: flex;
+  margin-top: 1.7rem;
+  margin-left: -2rem;
+}
+.first-section .main-section .content-section .mini-navbar ul i {
+  color: #D48274;
+  padding: 0.3rem;
+}
+.first-section .main-section .content-section .mini-navbar ul li {
+  list-style: none;
+}
+.first-section .main-section .content-section .mini-navbar ul li a {
+  text-decoration: none;
+  color: #2E2E2E;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+.first-section .main-section .img-section .main-img {
+  width: 90%;
+}
+
+.model-startup-section {
+  padding: 2rem 8rem;
+  margin-top: 2rem;
+}
+.model-startup-section .second-m {
+  margin-top: 16rem;
+  margin-bottom: 12rem;
+}
+.model-startup-section .all-content {
+  margin-left: 1rem;
+}
+.model-startup-section .all-content .content-section {
+  position: relative;
+}
+.model-startup-section .all-content .content-section img {
+  width: 94%;
+}
+.model-startup-section .all-content .content-section .content {
+  background-color: #FFFFFF;
+  margin-top: -6rem;
+  position: absolute;
+  min-height: 18rem;
+  margin-left: 1.7rem;
+  width: 82%;
+  padding: 1.4rem 2rem 1rem 2rem;
+  box-shadow: 0px 4px 68px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  z-index: 9999;
+}
+.model-startup-section .all-content .content-section .content h4 {
+  font-family: "Neuton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  color: #2E2E2E;
+}
+.model-startup-section .all-content .content-section .content p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 173.9%;
+  color: #808080;
+}
+.model-startup-section .all-content .content-section .content p a {
+  color: #D48274;
+  font-size: 17px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.facial-mania-franchise {
+  margin-top: 3rem;
+}
+.facial-mania-franchise .upper-content {
+  background-color: #D48274;
+}
+.facial-mania-franchise .upper-content .main-heading {
+  justify-content: center;
+}
+.facial-mania-franchise .upper-content .main-heading h2 {
+  font-family: "Neuton";
+  font-style: normal;
+  font-weight: 700;
+  padding: 3rem 0 1rem 0;
+  font-size: 46px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.facial-mania-franchise .upper-content .main-heading p {
+  font-family: "Montserrat";
+  font-style: normal;
+  line-height: 30px;
+  padding: 0 9rem 5.5rem 9rem;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.facial-mania-franchise .lower-content-imgs {
+  padding: 0 6rem;
+}
+.facial-mania-franchise .lower-content-imgs .all-content {
+  justify-content: center;
+  text-align: center;
+  margin-top: -5.5rem;
+  align-items: center;
+}
+.facial-mania-franchise .lower-content-imgs .all-content .circle-img {
+  border-radius: 50%;
+  margin: auto;
+  background-color: #FFFFFF;
+  width: 170px;
+  height: 170px;
+  border: 4px solid #D48274;
+}
+.facial-mania-franchise .lower-content-imgs .all-content .circle-img img {
+  padding-top: 1.7rem;
+}
+.facial-mania-franchise .lower-content-imgs .all-content h6 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 153.9%;
+  text-align: center;
+  margin-top: 1rem;
+  color: #2E2E2E;
+}
+.facial-mania-franchise .lower-content-imgs .all-content p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  text-align: center;
+  color: #808080;
+}
+
+.easy-seven-steps-section {
+  margin-top: 2rem;
+}
+.easy-seven-steps-section .main-heading h3 {
+  font-family: "Neuton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 55px;
+  text-align: center;
+}
+.easy-seven-steps-section .main-heading p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #626262;
+}
+.easy-seven-steps-section .content-section {
+  justify-content: center;
+  text-align: center;
+}
+.easy-seven-steps-section .content-section .all-content {
+  margin-top: -2.4rem;
+  position: relative;
+}
+.easy-seven-steps-section .content-section .all-content span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 245.412px;
+  line-height: 142.01%;
+  margin-left: -8rem;
+  /* or 304px */
+  text-align: center;
+  color: rgba(0, 0, 0, 0.06);
+}
+.easy-seven-steps-section .content-section .all-content .east-step-icons {
+  position: absolute;
+  width: 190px;
+  height: 190px;
+  top: 130px;
+  left: 140px;
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: 0px 4px 36px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+}
+.easy-seven-steps-section .content-section .all-content .east-step-icons img {
+  padding-top: 2.4rem;
+  width: 114px;
+}
+.easy-seven-steps-section .content-section .all-content .east-step-icons #led {
+  padding-top: 3.5rem;
+  width: 120px;
+}
+.easy-seven-steps-section .content-section .all-content p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 142.01%;
+  /* identical to box height, or 40px */
+  text-align: center;
+  margin-left: 2rem;
+  color: #2E2E2E;
+}
+
+.med-spa-differ {
+  background: rgba(212, 130, 116, 0.1);
+  margin-top: 4rem;
+}
+.med-spa-differ .headind-section-btn {
+  padding: 2rem 0;
+}
+.med-spa-differ .headind-section-btn h4 {
+  font-family: "Neuton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 58px;
+  text-align: center;
+  color: #2E2E2E;
+}
+.med-spa-differ .headind-section-btn p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 177.9%;
+  /* or 28px */
+  text-align: center;
+  padding: 0 2rem;
+  color: #808080;
+}
+.med-spa-differ .headind-section-btn .btn-ab {
+  justify-content: center;
+}
+.med-spa-differ .headind-section-btn .btn-ab .application-btn {
+  text-align: right;
+}
+.med-spa-differ .headind-section-btn .btn-ab .application-btn button {
+  background-color: #2E2E2E;
+  padding: 0.6rem 2rem;
+}
+.med-spa-differ .headind-section-btn .btn-ab .application-btn button a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+}
+.med-spa-differ .headind-section-btn .btn-ab .brouchre-btn {
+  text-align: left;
+}
+.med-spa-differ .headind-section-btn .btn-ab .brouchre-btn button {
+  background: none;
+  padding: 0.5rem 2rem;
+  border: 2px solid #2E2E2E;
+}
+.med-spa-differ .headind-section-btn .btn-ab .brouchre-btn button a {
+  color: #2E2E2E;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+}
+.med-spa-differ .detail-content {
+  margin-top: 1rem;
+}
+.med-spa-differ .detail-content .main-img {
+  background-color: #D48274;
+  width: 45%;
+  padding: 3rem;
+}
+.med-spa-differ .detail-content .main-img img {
+  width: 96%;
+}
+.med-spa-differ .detail-content .inner-content {
+  justify-content: center;
+  align-items: center;
+  padding-left: 0.9rem;
+}
+.med-spa-differ .detail-content .inner-content .inner-img {
+  width: 105px;
+  height: 105px;
+  border: 2px solid #D48274;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+}
+.med-spa-differ .detail-content .inner-content .inner-img img {
+  padding-top: 0.7rem;
+}
+.med-spa-differ .detail-content .inner-content h6 {
+  font-family: "Neuton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+  color: #2E2E2E;
+}
+.med-spa-differ .detail-content .inner-content p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 177.9%;
+  /* or 28px */
+  color: #808080;
+}
+
+.passions-skills {
+  background-image: url(../images/together.png);
+  height: 450px;
+}
+.passions-skills .all-content {
+  padding: 3rem 3rem;
+}
+.passions-skills .all-content h4 {
+  font-family: "Neuton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  color: #2E2E2E;
+  width: 70%;
+}
+.passions-skills .all-content span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 121.51%;
+  /* identical to box height, or 22px */
+  letter-spacing: 0.08em;
+  color: #2E2E2E;
+}
+.passions-skills .all-content p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  padding-top: 1rem;
+  line-height: 186.9%;
+  /* or 30px */
+  color: #484848;
+}
+
+.bussiness-benefit-1 {
+  margin: 3rem 0;
+}
+.bussiness-benefit-1 .b-heading h4 {
+  font-family: "Neuton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 58px;
+  text-align: center;
+  color: #2E2E2E;
+}
+.bussiness-benefit-1 .bussniess-content {
+  padding: 2.7rem 4rem 0 4rem;
+}
+.bussiness-benefit-1 .bussniess-content .all-content {
+  padding-left: 2rem;
+}
+.bussiness-benefit-1 .bussniess-content .all-content img {
+  width: 85%;
+}
+.bussiness-benefit-1 .bussniess-content .all-content h6 {
+  font-family: "Neuton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+  margin-top: 0.5rem;
+  color: #2E2E2E;
+}
+.bussiness-benefit-1 .bussniess-content .all-content p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 156.9%;
+  /* or 25px */
+  width: 85%;
+  color: #808080;
+}
+.bussiness-benefit-1 .bussniess-content .all-content p a {
+  color: #D48274;
+  font-weight: 600;
+}
+
+.align-practice {
+  padding-bottom: 3rem;
+}
+.align-practice .heading-content {
+  background-color: #D48274;
+  padding-top: 2rem;
+  padding-bottom: 9rem;
+  position: relative;
+  justify-content: center;
+}
+.align-practice .heading-content h4 {
+  font-family: "Neuton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 61px;
+  text-align: center;
+  line-height: 121.51%;
+  /* or 74px */
+  color: #FFFFFF;
+}
+.align-practice .heading-content span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 142.01%;
+  /* or 23px */
+  text-align: center;
+  color: #FFFFFF;
+}
+.align-practice .heading-content .c-fb {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 142.01%;
+  /* or 23px */
+  margin-top: 0.4rem;
+  font-style: italic;
+  text-align: center;
+}
+.align-practice .heading-content p {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 142.01%;
+  /* or 23px */
+  margin-top: 1rem;
+  width: 70%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.align-practice .yt-img {
+  margin-top: -9rem;
+  justify-content: center;
+  text-align: center;
+}
+.align-practice .yt-img img {
+  z-index: 9999;
+  width: 94%;
+}
+.align-practice .info-section {
+  justify-content: center;
+  text-align: center;
+  margin-top: -3rem;
+}
+.align-practice .info-section h2 {
+  font-family: "Neuton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 76px;
+  /* identical to box height */
+  color: #2E2E2E;
+  text-align: center;
+}
+.align-practice .info-section p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 1rem 22rem;
+  line-height: 177.9%;
+  /* or 28px */
+  color: #2E2E2E;
+  text-align: center;
+}
+.align-practice .info-section button {
+  width: 180px;
+  background-color: #2E2E2E;
+  padding: 0.7rem 3rem;
+}
+.align-practice .info-section button a {
+  text-decoration: none;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.build-better-future {
+  background-color: #D48274;
+}
+.build-better-future .all-content {
+  padding: 3rem 10rem;
+  align-items: center;
+}
+.build-better-future .all-content .heading-side {
+  padding-left: 6rem;
+}
+.build-better-future .all-content .heading-side h4 {
+  font-family: "Neuton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 51px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+.build-better-future .all-content .heading-side span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 121.51%;
+  /* identical to box height, or 22px */
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+}
+.build-better-future .all-content .heading-side p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 177.9%;
+  /* or 28px */
+  color: #FFFFFF;
+}
+.build-better-future .all-content .img-side {
+  text-align: right;
+  position: relative;
+}
+.build-better-future .all-content .img-side .img27 {
+  position: absolute;
+  top: 10px;
+  left: 6rem;
+}
+.build-better-future .all-content .img-side .img26 {
+  padding-right: 7rem;
+}
+.build-better-future .all-content .img-side .img28 {
+  position: absolute;
+  left: 6rem;
+  bottom: 0;
+}
+
+.bussniess-benefit-2 {
+  margin-top: 3rem;
+}
+.bussniess-benefit-2 .b-heading h3 {
+  font-family: "Neuton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 58px;
+  text-align: center;
+  color: #2E2E2E;
+  padding-bottom: 1rem;
+}
+.bussniess-benefit-2 .main-content {
+  justify-content: center;
+  padding: 2rem 15rem;
+}
+.bussniess-benefit-2 .main-content .all-content .img-section {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 2rem;
+  background-color: #FFFFFF;
+  position: relative;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+}
+.bussniess-benefit-2 .main-content .all-content .img-section img {
+  padding-left: 2rem;
+  padding-top: 1.7rem;
+  position: relative;
+}
+.bussniess-benefit-2 .main-content .all-content .img-section .headphone {
+  padding-left: 1.7rem;
+}
+.bussniess-benefit-2 .main-content .all-content .img-section .money {
+  padding-left: 1.5rem;
+  padding-top: 1.5rem;
+}
+.bussniess-benefit-2 .main-content .all-content .content-section {
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.06);
+  min-height: 19rem;
+  padding: 5.4rem 2rem 1rem 2rem;
+  margin-top: -4.5rem;
+}
+.bussniess-benefit-2 .main-content .all-content .content-section span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 142.01%;
+  /* identical to box height, or 34px */
+  text-align: center;
+  color: #2E2E2E;
+}
+.bussniess-benefit-2 .main-content .all-content .content-section p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 156.9%;
+  /* or 25px */
+  margin-top: 0.3rem;
+  color: #808080;
+}
+.bussniess-benefit-2 .main-content .all-content .content-section p a {
+  color: #D48274;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.invest-facial-spa {
+  background-color: #D48274;
+  margin-top: 3rem;
+}
+.invest-facial-spa .all-content {
+  padding: 4rem 10rem 5rem 10rem;
+  align-items: center;
+}
+.invest-facial-spa .all-content .imgs-side {
+  position: relative;
+}
+.invest-facial-spa .all-content .imgs-side .flower {
+  position: absolute;
+  top: 30px;
+  right: 140px;
+}
+.invest-facial-spa .all-content .imgs-side .d-facial {
+  position: absolute;
+  left: 12.4rem;
+  bottom: -2rem;
+}
+.invest-facial-spa .all-content .content-side {
+  padding-left: 4rem;
+}
+.invest-facial-spa .all-content .content-side h6 {
+  font-family: "Neuton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 177.9%;
+  color: #FFFFFF;
+}
+.invest-facial-spa .all-content .content-side span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 177.9%;
+  /* identical to box height, or 32px */
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+}
+.invest-facial-spa .all-content .content-side p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 177.9%;
+  /* or 34px */
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.bussiness-benefits-3 {
+  margin-top: 3rem;
+}
+.bussiness-benefits-3 .b3-heading h4 {
+  font-family: "Neuton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 58px;
+  padding-bottom: 1.5rem;
+  color: #2E2E2E;
+}
+.bussiness-benefits-3 .all-content {
+  padding: 1rem 8rem;
+}
+.bussiness-benefits-3 .all-content .content-box {
+  box-shadow: 0px 4px 55px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  width: 30%;
+  padding: 0;
+  margin-left: 2rem;
+}
+.bussiness-benefits-3 .all-content .content-box img {
+  width: 100%;
+}
+.bussiness-benefits-3 .all-content .content-box h6 {
+  font-family: "Neuton";
+  font-style: normal;
+  padding: 1rem 1rem 0 1rem;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 35px;
+  color: #2E2E2E;
+}
+.bussiness-benefits-3 .all-content .content-box p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0 1rem 1rem 1rem;
+  line-height: 156.9%;
+  /* or 25px */
+  color: #808080;
+}
+.bussiness-benefits-3 .all-content .content-box p a {
+  color: #D48274;
+  font-weight: 600;
+}
+
+.meet-jason-hall {
+  margin-top: 4rem;
+}
+.meet-jason-hall .all-content {
+  background-color: #D48274;
+  align-items: center;
+}
+.meet-jason-hall .all-content .content-side {
+  padding: 0 6rem 0 10rem;
+}
+.meet-jason-hall .all-content .content-side h4 {
+  font-family: "Neuton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 121.51%;
+  /* or 49px */
+  color: #FFFFFF;
+}
+.meet-jason-hall .all-content .content-side p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 166.01%;
+  /* or 27px */
+  color: #FFFFFF;
+}
+.meet-jason-hall .all-content .video-side {
+  padding: 0;
+  margin: 0;
+}
+.meet-jason-hall .all-content .video-side img {
+  width: 100%;
+}
+
+.grow-your-practice {
+  margin-top: 1rem;
+}
+.grow-your-practice .all-content {
+  padding: 0rem 10rem;
+  align-items: center;
+  justify-content: center;
+}
+.grow-your-practice .all-content .img-side {
+  text-align: center;
+}
+.grow-your-practice .all-content .img-side img {
+  width: 500px;
+}
+.grow-your-practice .all-content .content-side {
+  padding-top: 2rem;
+  padding-right: 4rem;
+}
+.grow-your-practice .all-content .content-side h4 {
+  font-family: "Neuton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #2E2E2E;
+}
+.grow-your-practice .all-content .content-side span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 121.51%;
+  /* identical to box height, or 22px */
+  margin-top: 0.4rem;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #2E2E2E;
+}
+.grow-your-practice .all-content .content-side p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 177.9%;
+  /* or 28px */
+  margin-top: 1rem;
+  color: #606060;
+}
+
+.bussiness-benefits-4 {
+  background-color: #D48274;
+  padding: 4rem;
+}
+.bussiness-benefits-4 .b4-heading h4 {
+  text-align: center;
+  font-family: "Neuton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 58px;
+  color: #FFFFFF;
+}
+.bussiness-benefits-4 .all-content {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem 10rem;
+}
+.bussiness-benefits-4 .all-content .content-box {
+  padding: 0 3rem;
+}
+.bussiness-benefits-4 .all-content .content-box .img-box {
+  width: 170px;
+  height: 170px;
+  border: 4px solid #EED3CD;
+  border-radius: 50%;
+  margin: auto;
+}
+.bussiness-benefits-4 .all-content .content-box .img-box img {
+  padding-top: 1.2rem;
+}
+.bussiness-benefits-4 .all-content .content-box .img-box .improve,
+.bussiness-benefits-4 .all-content .content-box .img-box .growth {
+  padding-top: 2.2rem;
+}
+.bussiness-benefits-4 .all-content .content-box h6 {
+  font-family: "Neuton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.bussiness-benefits-4 .all-content .content-box p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 156.9%;
+  /* or 25px */
+  text-align: center;
+  color: #FFFFFF;
+}
+.bussiness-benefits-4 .all-content .content-box p a {
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+.align-practice-yt {
+  justify-content: center;
+  text-align: center;
+}
+.align-practice-yt .main-content {
+  padding: 4rem 15rem;
+}
+.align-practice-yt .main-content h4 {
+  font-family: "Neuton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 58px;
+  color: #2E2E2E;
+}
+.align-practice-yt .main-content p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 177.9%;
+  /* or 28px */
+  text-align: center;
+  color: #606060;
+}
+.align-practice-yt .main-content iframe {
+  margin-top: 1.5rem;
+  filter: drop-shadow(0px 40px 61px rgba(238, 211, 205, 0.52));
+}
+
+.info-oppurtunity {
+  background-color: #D48274;
+  margin-top: 4rem;
+  margin-bottom: 0.2rem;
+}
+.info-oppurtunity .info-section {
+  justify-content: center;
+  text-align: center;
+  padding: 3rem 6rem;
+}
+.info-oppurtunity .info-section h2 {
+  font-family: "Neuton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 76px;
+  /* identical to box height */
+  color: #FFFFFF;
+  text-align: center;
+}
+.info-oppurtunity .info-section p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  padding: 0 15rem;
+  line-height: 177.9%;
+  margin-top: 0.5rem;
+  /* or 28px */
+  color: #FFFFFF;
+  text-align: center;
+}
+.info-oppurtunity .info-section button {
+  width: 180px;
+  background-color: #2E2E2E;
+  padding: 0.5rem 2rem;
+  margin-top: 1rem;
+}
+.info-oppurtunity .info-section button a {
+  text-decoration: none;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1600px) {
+  .first-section .main-section {
+    padding: 3rem 6rem 0rem 6rem;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 1450px) {
+  .first-section .main-section {
+    padding: 3rem 2rem 0rem 3rem;
+    align-items: center;
+  }
+  .first-section .main-section .content-section h1 {
+    font-size: 70px;
+    color: #2E2E2E;
+  }
+  .first-section .main-section .content-section .mini-navbar ul {
+    display: flex;
+    margin-top: 1.5rem;
+    margin-left: 0rem;
+  }
+  .model-startup-section {
+    padding: 2rem 4rem;
+    margin-top: 2rem;
+  }
+  .easy-seven-steps-section .content-section .all-content .east-step-icons {
+    left: 90px;
+  }
+  .align-practice .info-section p {
+    padding: 1rem 10rem;
+  }
+  .build-better-future .all-content {
+    padding: 3rem 2rem;
+  }
+  .bussniess-benefit-2 .main-content {
+    justify-content: center;
+    padding: 2rem 8rem;
+  }
+  .invest-facial-spa .all-content {
+    padding: 4rem 4rem 5rem 4rem;
+    align-items: center;
+  }
+  .invest-facial-spa .all-content .content-side {
+    padding-left: 6rem;
+  }
+  .invest-facial-spa .all-content .imgs-side .flower {
+    position: absolute;
+    top: 30px;
+    right: 44px;
+  }
+  .meet-jason-hall .all-content .content-side {
+    padding: 0 4rem 0 6rem;
+  }
+  .grow-your-practice .all-content {
+    padding: 0rem 4em;
+    align-items: center;
+    justify-content: center;
+  }
+  .bussiness-benefits-4 .all-content {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem 4rem;
+  }
+  .facial-mania-franchise .upper-content .main-heading p {
+    padding: 0 4rem 5.5rem 4rem;
+  }
+  .facial-mania-franchise .lower-content-imgs {
+    padding: 0 3rem;
+  }
+  .align-practice-yt .main-content {
+    padding: 4rem 6rem;
+  }
+  .info-oppurtunity .info-section p {
+    padding: 0 5rem;
+  }
+  ol,
+ul {
+    padding-left: 0rem;
+  }
+  footer .main-footer .finance-email {
+    margin-top: 0.5rem;
+    padding-left: 0rem;
+  }
+  footer .main-footer .logo-section {
+    margin-top: 2rem;
+    padding-left: 0rem;
+  }
+}/*# sourceMappingURL=franchise.css.map */

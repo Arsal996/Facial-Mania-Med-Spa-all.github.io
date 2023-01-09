@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Neuton:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+$light-pink: #EED3CD;
+$normal: #DEA370;
+$secondary: #EED3CD;
+$tertary: #2E2E2E;
+$primary: #D48274;
+$light-clr: #F8ECE1;
+$white-clr: #FFFFFF;
+
+// footer section css 
+
+footer {
+    background-color: $white-clr;
+    width: 100%;
+    max-width: 100%;
+    -webkit-box-shadow: 0px -4px 20px rgba(218, 218, 218, 0.75);
+    -moz-box-shadow: 0px -4px 20px rgba(218, 218, 218, 0.75);
+    box-shadow: 0px -4px 20px rgba(218, 218, 218, 0.75);
+
+    .main-footer {
+        margin: 0;
+        padding: 2rem 4rem;
+
+        .logo-section {
+            margin-top: 2rem;
+            padding-left: 2rem;
+        }
+
+        .skin-massage-list {
+            padding-left: 2rem;
+            li {
+                list-style: none;
+
+                a {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 20px;
+                    color: $tertary;
+                    margin-top: 1.2rem;
+                    display: block;
+                    transition: all .3s ease-in;
+
+                    &:hover{
+                        color: $primary;
+                        text-decoration: none;
+                    }
+                }
+            }
+
+            .menu-heading {
+                list-style: none;
+                margin-top: 2rem;
+
+                a {
+                    color: $primary;
+                    text-decoration: none;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 20px;
+                    display: block;
+                }
+            }
+        }
+
+        .finance-email {
+            margin-top: .5rem;
+            padding-left: 4rem;
+
+            .cherry-care {
+                display: flex;
+                align-items: center;
+                margin-top: 1rem;
+
+                p {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: $primary;
+                    margin-top: .9rem;
+                }
+
+                img {
+                    margin-left: 1.5rem;
+                    // height: 50px;
+                    // width: 150px;
+                }
+            }
+
+            .for-email {
+                p {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 20px;
+                    color: $primary;
+                    margin-top: 1.4rem;
+                }
+
+                span {
+                    background-color: $light-pink;
+                    margin-top: .5rem;
+                    padding: .4rem 8.7rem .5rem 1.5rem;
+                }
+            }
+        }
+    }
+
+    .lower-footer {
+        background-color: $primary;
+        padding: 1rem 1rem 0 1rem;
+        color: $white-clr;
+        width: 100%;
+        margin: 0;
+
+        .reserved {
+            padding-left: 5rem;
+        }
+
+        .f-links {
+            // padding-left: 7rem;
+            justify-content: right;
+            text-align: right;
+
+            a {
+                color: $white-clr;
+            }
+        }
+    }
+}
+
+
+// media query css 
+
+
+footer .main-footer .finance-email .for-email span {
+    background-color: #EED3CD;
+    margin-top: 0.5rem;
+    padding: 0.4rem 6.7rem 0.5rem 1.5rem;
+}
+@media only screen and (max-width: 1250px){
+    
+footer .main-footer .finance-email .for-email span {
+    padding: 0.4rem 5.7rem 0.5rem 1.5rem;
+}
+}
+@media only screen and (max-width: 1050px){
+    
+    footer .main-footer .finance-email .for-email span {
+        padding: 0.4rem 3.7rem 0.5rem 1.5rem;
+    }
+    }
+@media only screen and (max-width: 450px) {
+
+    footer .lower-footer {
+        flex-direction: column-reverse;
+    }
+   
+    footer .main-footer .logo-section {
+        margin-top: 1rem;
+        text-align: center;
+    }
+    footer .main-footer .logo-section img{
+         width: 140px;
+         height: 150px;
+    }
+    footer .main-footer {
+        padding: 2rem 2rem;
+
+        ol,
+        ul {
+            padding-left: 0rem;
+        }
+    }
+
+    footer .main-footer .finance-email {
+        padding-left: .5rem;
+        margin-top: 0rem;
+    }
+
+    footer .main-footer .finance-email .cherry-care img {
+        margin-left: 1rem;
+    }
+
+    footer .lower-footer .reserved {
+        padding-left: 1rem;
+    }
+
+    footer .lower-footer .reserved p {
+        text-align: center;
+    }
+
+    footer .lower-footer .f-links {
+        padding-left: 0rem;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+
+    footer .main-footer .finance-email .cherry-care p {
+        font-size: 14px;
+        margin-top: 0.5rem;
+    }
+    footer .main-footer .finance-email .for-email p {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    footer .main-footer .finance-email .for-email span {
+        padding: 0.4rem 6.7rem 0.5rem 1.5rem;
+    }
+
+}

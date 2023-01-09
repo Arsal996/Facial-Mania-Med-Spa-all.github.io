@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Neuton:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+$light-pink: #EED3CD;
+$normal: #DEA370;
+$secondary: #EED3CD;
+$tertary: #2E2E2E;
+$primary: #D48274;
+$light-clr: #F8ECE1;
+$white-clr: #FFFFFF;
+
+.head-nav {
+    background-color: $light-pink;
+
+    .all-content {
+        padding: 0rem 10rem;
+        align-items: center;
+        justify-content: center;
+
+        .heading-navbar {
+            h2 {
+                font-family: 'Neuton';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 81.2px;
+                line-height: 103px;
+                color: $tertary;
+            }
+
+            .mini-navbar ul {
+                display: flex;
+                margin-left: -2rem;
+
+                i {
+                    color: $primary;
+                    padding: .3rem;
+                    // margin-top: -.3rem;
+                }
+
+                li {
+                    list-style: none;
+
+                    a {
+                        text-decoration: none;
+                        color: $tertary;
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+
+        .main-img {
+
+            img {
+          
+                width: 80%;
+            }
+
+        }
+    }
+}
+
+// sense-fresh-mind css 
+
+.sense-fresh-mind {
+    margin-top: 4rem;
+
+    .all-content {
+        padding: 1rem 10rem;
+
+        .content-side {
+            h2 {
+                font-family: 'Neuton';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 50px;
+                line-height: 121.51%;
+                /* or 61px */
+                color: #2E2E2E;
+            }
+
+            span {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 121.51%;
+                /* identical to box height, or 22px */
+                color: $primary;
+                padding-top: .5rem;
+                display: block;
+                letter-spacing: 0.08em;
+                text-transform: uppercase;
+            }
+
+            p {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 159.9%;
+                /* or 26px */
+                margin-top: 1.3rem;
+                color: #797979;
+            }
+
+            .list-data {
+                display: flex;
+
+                img {
+                    width: 18px;
+                    height: 18px;
+                    margin-top: .375rem;
+                }
+
+                li {
+                    list-style: none;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 17px;
+                    line-height: 182.9%;
+                    color: $tertary;
+                    margin-left: .5rem;
+                }
+            }
+
+            button {
+                padding: .5rem 2rem;
+                background-color: $primary;
+                margin-top: 2rem;
+
+                a {
+                    text-decoration: none;
+                    color: $white-clr;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                }
+            }
+        }
+
+        .img-side{
+            text-align: right;
+        }
+    }
+}
+
+@media only screen and (max-width: 1600px){
+    .head-nav .all-content {
+        padding: 0rem 8rem;
+    }
+    .sense-fresh-mind .all-content {
+        padding: 1rem 8rem;
+    }
+    
+}
+
+@media only screen and (max-width: 1400px){
+    .head-nav .all-content {
+        padding: 0rem 0rem;
+    }
+    .sense-fresh-mind .all-content {
+        padding: 1rem 4rem;
+    }
+   
+} 

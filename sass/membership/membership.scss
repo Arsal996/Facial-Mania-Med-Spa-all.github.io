@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Neuton:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+$light-pink: #EED3CD;
+$normal: #DEA370;
+$secondary: #EED3CD;
+$tertary: #2E2E2E;
+$primary: #D48274;
+$light-clr: #F8ECE1;
+$white-clr: #FFFFFF;
+
+.head-nav {
+    background-color: $light-pink;
+
+    .all-content {
+        padding: 0rem 8rem;
+        align-items: center;
+        justify-content: center;
+
+        .heading-navbar {
+            h2 {
+                font-family: 'Neuton';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 81.2px;
+                line-height: 103px;
+                color: $tertary;
+            }
+
+            .mini-navbar ul {
+                display: flex;
+                margin-left: -2rem;
+
+                i {
+                    color: $primary;
+                    padding: .3rem;
+                    // margin-top: -.3rem;
+                }
+
+                li {
+                    list-style: none;
+
+                    a {
+                        text-decoration: none;
+                        color: $tertary;
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+
+        .main-img {
+
+            img {
+                width: 80%;
+            }
+
+        }
+    }
+}
+
+// pretty-dctr css 
+
+.pretty-dctr {
+    margin-top: 3rem;
+
+    .all-content {
+        padding: 1rem 13rem;
+
+        .img-side {
+            img {
+                width: 95%;
+            }
+        }
+
+        .content-side {
+            padding-top: 4rem;
+
+            h4 {
+                font-family: 'Neuton';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 50px;
+                line-height: 121.51%;
+                /* identical to box height, or 61px */
+                color: #2E2E2E;
+            }
+
+            span {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                letter-spacing: 0.08em;
+                margin-top: -.4rem;
+                display: block;
+                text-transform: uppercase;
+                color: $primary;
+            }
+
+            p {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                width: 96%;
+                margin-top: 1rem;
+                line-height: 159.9%;
+                /* or 26px */
+                color: #797979;
+            }
+
+            button {
+                padding: 0.6rem 2rem;
+                background-color: $primary;
+                margin-top: 1rem;
+
+                a {
+                    text-decoration: none;
+                    color: $white-clr;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+.packages-section {
+    margin-top: 3rem;
+
+    .all-content {
+        padding: 2rem;
+        justify-content: center;
+        margin-right: 2rem;
+
+        .content-box {
+            width: 25%;
+            height: auto;
+            margin-left: 2.9rem;
+            padding: 2rem;
+            justify-content: center;
+            background: rgba(212, 130, 116, 0.12);
+
+            .img-price {
+                text-align: center;
+
+                h4 {
+                    font-family: 'Neuton';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 50px;
+                    line-height: 121.51%;
+                    /* identical to box height, or 61px */
+                    color: $tertary;
+                    text-align: center;
+                }
+
+                p {
+                    font-family: 'Neuton';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 64px;
+                    line-height: 121.51%;
+                    /* identical to box height, or 78px */
+                    color: $primary;
+                    text-align: center;
+
+                    span {
+                        font-size: 24px;
+                        font-weight: 500;
+                    }
+                }
+            }
+
+            .list-data {
+
+                .inner-list {
+                    display: flex;
+
+                    // align-items: center;
+                    li {
+                        list-style: none;
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 124.01%;
+                        /* or 20px */
+                        color: #565656;
+                        margin-top: .7rem;
+
+                    }
+
+                    img {
+                        width: 17px;
+                        height: 17px;
+                        margin-right: .5rem;
+                        margin-top: .7rem;
+                    }
+                }
+
+                p {
+                    font-family: 'Neuton';
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 20px;
+                    line-height: 121.51%;
+                    color: $tertary;
+                }
+
+            }
+        }
+    }
+}
+
+// facial-mania-membership css
+
+.facial-mania-membership {
+    margin-top: 2rem;
+    padding: 2rem 14rem;
+
+
+    .fm-heading {
+
+        width: 95%;
+
+        h2 {
+
+            font-family: 'Neuton';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 121.51%;
+            /* identical to box height, or 61px */
+            color: $tertary;
+        }
+
+        p {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 145.01%;
+            /* or 23px */
+            color: #565656;
+        }
+    }
+
+    .all-content {
+        margin-top: 1rem;
+        align-items: center;
+        width: 100%;
+            
+        .img-side{
+            img{
+                width: 100%;
+            }
+        }
+
+        .content-side {
+            padding-left: 4rem;
+
+            .inner-content {
+                display: flex;
+                width: 96%;
+
+                img {
+                    width: 24px;
+                    height: 24px;
+                    margin-top: 2.4rem;
+                }
+
+                p {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 159.01%;
+                    /* or 30px */
+                    margin-left: .7rem;
+                    margin-top: 2rem;
+                    color: $tertary;
+                }
+            }
+
+            button {
+                padding: .5rem 2rem;
+                background-color: $primary;
+                margin-top: 1rem;
+
+                a {
+                    text-decoration: none;
+                    color: $white-clr;
+                    font-family: 'Neuton';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1680px){
+    .pretty-dctr .all-content {
+        padding: 1rem 10rem;
+    }
+    .facial-mania-membership {
+        padding: 2rem 10rem;
+    }
+}
+
+@media only screen and (max-width: 1580px){
+    .head-nav .all-content {
+        padding: 0rem 4rem;
+    }
+    .pretty-dctr .all-content {
+        padding: 1rem 6rem;
+    }
+    .facial-mania-membership {
+        padding: 2rem 6rem;
+    }
+}
+
+@media only screen and (max-width: 1460px){
+
+    .head-nav .all-content {
+        padding: 0rem 0rem;
+    }
+    .pretty-dctr .all-content {
+        padding: 1rem 4rem;
+    }
+
+    .packages-section .all-content {
+        padding: 2rem 0rem;
+    }
+    .packages-section .all-content .content-box {
+        width: 28%;
+        height: auto;}
+        .facial-mania-membership {
+            padding: 2rem 5rem;
+        }
+}

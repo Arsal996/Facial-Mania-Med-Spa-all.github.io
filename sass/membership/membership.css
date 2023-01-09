@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Neuton:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+.head-nav {
+  background-color: #EED3CD;
+}
+.head-nav .all-content {
+  padding: 0rem 8rem;
+  align-items: center;
+  justify-content: center;
+}
+.head-nav .all-content .heading-navbar h2 {
+  font-family: "Neuton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 81.2px;
+  line-height: 103px;
+  color: #2E2E2E;
+}
+.head-nav .all-content .heading-navbar .mini-navbar ul {
+  display: flex;
+  margin-left: -2rem;
+}
+.head-nav .all-content .heading-navbar .mini-navbar ul i {
+  color: #D48274;
+  padding: 0.3rem;
+}
+.head-nav .all-content .heading-navbar .mini-navbar ul li {
+  list-style: none;
+}
+.head-nav .all-content .heading-navbar .mini-navbar ul li a {
+  text-decoration: none;
+  color: #2E2E2E;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+.head-nav .all-content .main-img img {
+  width: 80%;
+}
+
+.pretty-dctr {
+  margin-top: 3rem;
+}
+.pretty-dctr .all-content {
+  padding: 1rem 13rem;
+}
+.pretty-dctr .all-content .img-side img {
+  width: 95%;
+}
+.pretty-dctr .all-content .content-side {
+  padding-top: 4rem;
+}
+.pretty-dctr .all-content .content-side h4 {
+  font-family: "Neuton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 121.51%;
+  /* identical to box height, or 61px */
+  color: #2E2E2E;
+}
+.pretty-dctr .all-content .content-side span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.08em;
+  margin-top: -0.4rem;
+  display: block;
+  text-transform: uppercase;
+  color: #D48274;
+}
+.pretty-dctr .all-content .content-side p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  width: 96%;
+  margin-top: 1rem;
+  line-height: 159.9%;
+  /* or 26px */
+  color: #797979;
+}
+.pretty-dctr .all-content .content-side button {
+  padding: 0.6rem 2rem;
+  background-color: #D48274;
+  margin-top: 1rem;
+}
+.pretty-dctr .all-content .content-side button a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+.packages-section {
+  margin-top: 3rem;
+}
+.packages-section .all-content {
+  padding: 2rem;
+  justify-content: center;
+  margin-right: 2rem;
+}
+.packages-section .all-content .content-box {
+  width: 25%;
+  height: auto;
+  margin-left: 2.9rem;
+  padding: 2rem;
+  justify-content: center;
+  background: rgba(212, 130, 116, 0.12);
+}
+.packages-section .all-content .content-box .img-price {
+  text-align: center;
+}
+.packages-section .all-content .content-box .img-price h4 {
+  font-family: "Neuton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 121.51%;
+  /* identical to box height, or 61px */
+  color: #2E2E2E;
+  text-align: center;
+}
+.packages-section .all-content .content-box .img-price p {
+  font-family: "Neuton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 121.51%;
+  /* identical to box height, or 78px */
+  color: #D48274;
+  text-align: center;
+}
+.packages-section .all-content .content-box .img-price p span {
+  font-size: 24px;
+  font-weight: 500;
+}
+.packages-section .all-content .content-box .list-data .inner-list {
+  display: flex;
+}
+.packages-section .all-content .content-box .list-data .inner-list li {
+  list-style: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 124.01%;
+  /* or 20px */
+  color: #565656;
+  margin-top: 0.7rem;
+}
+.packages-section .all-content .content-box .list-data .inner-list img {
+  width: 17px;
+  height: 17px;
+  margin-right: 0.5rem;
+  margin-top: 0.7rem;
+}
+.packages-section .all-content .content-box .list-data p {
+  font-family: "Neuton";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 121.51%;
+  color: #2E2E2E;
+}
+
+.facial-mania-membership {
+  margin-top: 2rem;
+  padding: 2rem 14rem;
+}
+.facial-mania-membership .fm-heading {
+  width: 95%;
+}
+.facial-mania-membership .fm-heading h2 {
+  font-family: "Neuton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 121.51%;
+  /* identical to box height, or 61px */
+  color: #2E2E2E;
+}
+.facial-mania-membership .fm-heading p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 145.01%;
+  /* or 23px */
+  color: #565656;
+}
+.facial-mania-membership .all-content {
+  margin-top: 1rem;
+  align-items: center;
+  width: 100%;
+}
+.facial-mania-membership .all-content .img-side img {
+  width: 100%;
+}
+.facial-mania-membership .all-content .content-side {
+  padding-left: 4rem;
+}
+.facial-mania-membership .all-content .content-side .inner-content {
+  display: flex;
+  width: 96%;
+}
+.facial-mania-membership .all-content .content-side .inner-content img {
+  width: 24px;
+  height: 24px;
+  margin-top: 2.4rem;
+}
+.facial-mania-membership .all-content .content-side .inner-content p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 159.01%;
+  /* or 30px */
+  margin-left: 0.7rem;
+  margin-top: 2rem;
+  color: #2E2E2E;
+}
+.facial-mania-membership .all-content .content-side button {
+  padding: 0.5rem 2rem;
+  background-color: #D48274;
+  margin-top: 1rem;
+}
+.facial-mania-membership .all-content .content-side button a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: "Neuton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 1680px) {
+  .pretty-dctr .all-content {
+    padding: 1rem 10rem;
+  }
+  .facial-mania-membership {
+    padding: 2rem 10rem;
+  }
+}
+@media only screen and (max-width: 1580px) {
+  .head-nav .all-content {
+    padding: 0rem 4rem;
+  }
+  .pretty-dctr .all-content {
+    padding: 1rem 6rem;
+  }
+  .facial-mania-membership {
+    padding: 2rem 6rem;
+  }
+}
+@media only screen and (max-width: 1460px) {
+  .head-nav .all-content {
+    padding: 0rem 0rem;
+  }
+  .pretty-dctr .all-content {
+    padding: 1rem 4rem;
+  }
+  .packages-section .all-content {
+    padding: 2rem 0rem;
+  }
+  .packages-section .all-content .content-box {
+    width: 28%;
+    height: auto;
+  }
+  .facial-mania-membership {
+    padding: 2rem 5rem;
+  }
+}/*# sourceMappingURL=membership.css.map */
